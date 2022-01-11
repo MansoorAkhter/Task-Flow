@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #3450a1;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+  border-radius: 20px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 40px;
+}
+
+ul {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
+  list-style: none;
+  font-size: 25px;
+  margin: 7px;
+  padding: 15px;
+  color: white;
+  background-color: #041955;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.checkbox {
+  background: none;
+  border: none;
+  /* color: #bc0adc; */
+  color: #0a8fdc;
+  font-size: 35px;
+}
+.fa-check-circle {
+  color: #0a8fdc;
+}
+
+.fa-trash-alt:hover {
+  color: rgb(255, 89, 60);
+  /* font-size: 27px; */
+}
+.fa-edit:hover {
+  color: rgb(72, 192, 240);
+}
+
+p {
+  margin: 0 20px 0 20px;
+}
+
+.fa-edit {
+  margin: 0 10px;
+}
+
+.fa-trash-alt {
+  margin: 0 10px;
+}
+
+.data {
+  padding: 10px;
+  width: 15vw;
+  border: none;
+  border-radius: 10px;
+}
+
+.addBtn {
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background: #041955;
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  letter-spacing: 5px;
+  color: #97b4ff;
+  font-size: 22px;
+}
